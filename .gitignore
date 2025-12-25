@@ -1,0 +1,29 @@
+# --- Compiled Binaries & Objects ---
+*.o
+*.out
+*.so
+*.a
+# Ignore all files without an extension (common for Linux C executables)
+# but we explicitly keep the README and Makefile
+*
+!*.*
+!*/
+!Makefile
+!README.md
+
+# --- VS Code Files ---
+.vscode/
+*.code-workspace
+
+# --- Temporary & Backup Files ---
+*~
+*.swp
+*.log
+*.tmp
+
+# --- Specific IPC/Networking Artifacts ---
+# If you create sockets as files in the filesystem
+*.sock
+
+# --- Windows/WSL Metadata ---
+*.Identifier
