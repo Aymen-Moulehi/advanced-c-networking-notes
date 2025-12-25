@@ -14,3 +14,4 @@ This repo includes a Python helper to quickly compile and run any exercise:
 | UDP Datagrams | network\-basics/udp_directory.c | How to use sendto and recvfrom for connectionless communication and string manipulation.|
 |TCP Parallelism | network\-basics/tcp_parallel_server.c | Using fork() to create a ""Child Process"" so the server can handle multiple clients simultaneously." |
 | Socket Addresses | network\-basics/udp_directory.c | Encapsulating sockaddr_in setup into functions and using htons for Big-Endian network order. |
+|XDR Representation | xdr\-representation/client_xdr.c, server_xdr.c | Using XDR_ENCODE and XDR_DECODE to ensure data portability across different CPU architectures. |
